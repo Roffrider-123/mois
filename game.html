@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megamind Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">MISS <span>MEGAMIND</span></div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="memories.html">Memories</a>
+        <a href="gifts.html">Gifts</a>
+        <a href="game.html" class="active">Game</a>
+        <a href="wishes.html">Wishes</a>
+    </nav>
+</header>
+
+<section class="page-header">
+
+    <p>MINI GAME</p>
+
+    <h1>CATCH THE <span>GOLD</span> 🪙</h1>
+
+    <p>Click the gold circles before they disappear!</p>
+
+</section>
+
+<section class="game-section">
+
+    <div class="game-score">
+        SCORE: <span id="gameScore">0</span>
+    </div>
+
+    <div id="gameArea"></div>
+
+    <button class="btn" onclick="startGame()">START GAME</button>
+
+</section>
+
+<footer>
+    <p>Megamind Game Arena 🎮</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

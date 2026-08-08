@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20 Gifts | Miss Megamind</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">MISS <span>MEGAMIND</span></div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="memories.html">Memories</a>
+        <a href="gifts.html" class="active">Gifts</a>
+        <a href="game.html">Game</a>
+        <a href="wishes.html">Wishes</a>
+    </nav>
+</header>
+
+<section class="page-header">
+    <p>SHE TURNED 20</p>
+    <h1>20 <span>GIFTS</span> 🎁</h1>
+    <p>Click each gift to reveal a surprise.</p>
+</section>
+
+<section class="gifts">
+
+    <div class="gift" onclick="openGift(1)">01 🎁</div>
+    <div class="gift" onclick="openGift(2)">02 🎁</div>
+    <div class="gift" onclick="openGift(3)">03 🎁</div>
+    <div class="gift" onclick="openGift(4)">04 🎁</div>
+    <div class="gift" onclick="openGift(5)">05 🎁</div>
+    <div class="gift" onclick="openGift(6)">06 🎁</div>
+    <div class="gift" onclick="openGift(7)">07 🎁</div>
+    <div class="gift" onclick="openGift(8)">08 🎁</div>
+    <div class="gift" onclick="openGift(9)">09 🎁</div>
+    <div class="gift" onclick="openGift(10)">10 🎁</div>
+
+    <div class="gift" onclick="openGift(11)">11 🎁</div>
+    <div class="gift" onclick="openGift(12)">12 🎁</div>
+    <div class="gift" onclick="openGift(13)">13 🎁</div>
+    <div class="gift" onclick="openGift(14)">14 🎁</div>
+    <div class="gift" onclick="openGift(15)">15 🎁</div>
+    <div class="gift" onclick="openGift(16)">16 🎁</div>
+    <div class="gift" onclick="openGift(17)">17 🎁</div>
+    <div class="gift" onclick="openGift(18)">18 🎁</div>
+    <div class="gift" onclick="openGift(19)">19 🎁</div>
+    <div class="gift special-gift" onclick="openGift(20)">20 👑</div>
+
+</section>
+
+<div id="giftModal" class="modal">
+
+    <div class="modal-content">
+
+        <button class="close" onclick="closeGift()">×</button>
+
+        <h2 id="giftTitle"></h2>
+
+        <p id="giftMessage"></p>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>20 Gifts • 20 Years • One Miss Megamind 🧠</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
